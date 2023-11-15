@@ -1,5 +1,7 @@
 function onBallClick(elBall) {
-  var newSize = +elBall.innerText === 400 ? 100 : +elBall.innerText + 50
+  var randomInc = getRandomInt(20, 60)
+  var newSize =
+    +elBall.innerText + randomInc >= 400 ? 100 : +elBall.innerText + randomInc
 
   elBall.style.width = newSize + 'px'
   elBall.style.height = newSize + 'px'
