@@ -24,3 +24,11 @@ h1 {
 
   transition: 0.3s;
 }
+
+.this {
+  border: 0px;
+}
+
+.that {
+  color: white;
+}
