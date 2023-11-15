@@ -15,4 +15,5 @@ h1 {
   cursor: pointer;
 
   background-color: lightblue;
+  transition: 0.2s;
 }
